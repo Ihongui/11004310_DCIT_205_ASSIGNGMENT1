@@ -1,0 +1,83 @@
+.root {
+    max-width: 400px;
+    margin: 60px auto 0;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 9px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #CAC3C3;
+
+}
+
+
+h2 {
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.form {
+    height: 300px;
+    width: 300px;
+    border-radius: 0px;
+    margin-left: 0px;
+}
+
+.login-btn {
+    width: 100px;
+    margin: 30px 30px 30px 130px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 50px;
+    background-color: #0012F6;
+}
+
+.lg {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+
+.LOGIN {
+    margin-top: 60px;
+    background: linear-gradient(white, white), no-repeat padding-box border-box 50% / cover scroll url('src/Images/1.JPG');
+}
+
+.Input {
+    width: 360px;
+}
+
+.Login-nav {
+    margin: 0px;
+}
+
+.LgBg {}

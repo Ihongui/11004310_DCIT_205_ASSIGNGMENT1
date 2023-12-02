@@ -1,0 +1,36 @@
+.root {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0px 0px 20px;
+
+    h2 {
+        color: #FFFFFF;
+        padding-bottom: 10px;
+        padding-left: 240px;
+    }
+
+    .grades,
+    .alerts {
+        margin-top: 20px;
+    }
+
+    h3 {
+        color: #0086FF;
+        margin: 6px 6px 6px 70px;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+        flex-direction: column;
+        margin-left: 70px;
+    }
+
+    li {
+        margin-bottom: 5px;
+        color: #FFFFFF;
+    }
+
+    display:flex;
+    flex-direction:column;
+}
