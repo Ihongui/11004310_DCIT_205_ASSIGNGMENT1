@@ -76,7 +76,7 @@ box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     color: white;
     border: none;
     border-radius: 4px;
-
+    width:150px;
 }
 .buttons:hover {
     cursor: pointer;
@@ -95,11 +95,13 @@ box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     font-family: sans-serif;
     margin-bottom:10px;
     color: #BD9C6C;
+    margin-bottom:0px;
 }
 .paragraphs {
     font-family: sans-serif;
     line-height: 25px;
     color: black;
+    margin-top: 0px;
 }
 .footer {
     background-color: #141235;
@@ -230,6 +232,7 @@ box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 .form-labels{
     color:#141235;
     font-family: sans-serif;
+    font-weight: bold;
     font-size: 20px;
 }
 .textarea{
@@ -278,6 +281,11 @@ box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 .dropdown:active .content-2{
     display:block;
 }
+.table-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 .table{
     border:#141235 solid 2px;
     width:760px;
@@ -305,27 +313,31 @@ box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     margin-bottom: 10px;
     
 }
-.print-button{
-    margin-bottom: 10px;
-    background-color: #BD9C6C;
-    font-family: sans-serif;
-    border:none;
-    height:40px;
-    width:70px;
-    font-family: sans-serif;
-}
 .lecturers-contact-container{
     margin-bottom:10px;
     height: 300px;
     padding-left: 20px;
     padding-top: 20px;
-    padding-right: 20px;
+    padding-right: 5px;
     padding-bottom: 20px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content:center;
     background-color: #BD9C6C;
+}
+.lecturers-contact-container-2{
+    margin-bottom:10px;
+    height: 300px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 5px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    background-color:#141235;
 }
 .contact-mini-container{
     border:#141235 2px solid;
@@ -343,7 +355,7 @@ box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 .contact-mini-container:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    
+    opacity:0.9;
 }
 .contact-image-section{
     border:#141235 2px solid;
@@ -385,3 +397,34 @@ border: none;
     height:150px;
     width: 130px;
 }
+.contact-info{
+    color:#100c54;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.collapsible-button{
+    background-color:#141235;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+.active, .collapsible-button:hover{
+    background-color:#BD9C6C;
+}
+.collapsible-content{
+    padding: 10px 10px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }
+  .strong-text{
+    color: #BD9C6C;
+    font-family: sans-serif;
+  }
+
+
