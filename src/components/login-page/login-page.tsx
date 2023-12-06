@@ -12,28 +12,30 @@ export interface LoginPageProps {
 
 export const LoginPage = ({ className }: LoginPageProps) => {
     return <div className={classNames(styles.root, className)}>
-        <h2 className={styles.lg}>Login Required</h2>
-        <Navbar />
-        <form className={styles.form}>
-            <label htmlFor="studentId">Student ID:</label>
-            <input
-                type="text"
-                id="studentId"
-                className={styles.Input}
+        <div className={styles.LG}>
+            <h2 className={styles.lg}>Login Required</h2>
+            <Navbar />
+            <form className={styles.form}>
+                <label htmlFor="studentId" className={styles.label}>Student ID:</label>
+                <input
+                    type="text"
+                    id="studentId"
+                    className={styles.Input}
 
-            />
+                />
 
-            <label htmlFor="pin">PIN:</label>
-            <input
-                type="password"
-                id="pin"
-                className={styles.Input}
+                <label htmlFor="pin" className={styles.label}>PIN:</label>
+                <input
+                    type="password"
+                    id="pin"
+                    className={styles.Input}
 
-            />
+                />
 
-            <button type="button" className={styles['login-btn']} >
-                Login
-            </button>
+                <button type="button" className={styles['login-btn']} >
+                    Login
+                </button>
 
-        </form></div>;
+            </form>
+        </div></div>;
 };

@@ -3,6 +3,7 @@ import { LoginPage } from '../../../components/login-page/login-page';
 import LoginPage_module from '../../../components/login-page/login-page.module.scss';
 import Classnames from 'classnames';
 
+
 export default createBoard({
     name: 'LoginPage',
     Board: () => <LoginPage />,
@@ -10,6 +11,6 @@ export default createBoard({
     environmentProps: {
         windowWidth: 828,
         canvasHeight: 655,
-        canvasWidth: 696
+        canvasWidth: 830
     }
 });

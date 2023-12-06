@@ -6,9 +6,9 @@ export default createBoard({
     Board: () => <Navbar />,
     isSnippet: true,
     environmentProps: {
-        windowWidth: 746,
-        windowHeight: 395,
-        canvasWidth: 870,
-        canvasHeight: 447
+        windowWidth: 1024,
+        windowHeight: 768,
+        canvasWidth: 955,
+        canvasHeight: 763
     }
 });

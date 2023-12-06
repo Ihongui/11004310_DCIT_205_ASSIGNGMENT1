@@ -5,4 +5,9 @@ export default createBoard({
     name: 'HelpAndSupport',
     Board: () => <HelpAndSupport />,
     isSnippet: true,
+    environmentProps: {
+        canvasHeight: 727,
+        canvasWidth: 957,
+        windowHeight: 717
+    }
 });

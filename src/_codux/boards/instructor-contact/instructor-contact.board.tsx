@@ -5,4 +5,8 @@ export default createBoard({
     name: 'InstructorContact',
     Board: () => <InstructorContact />,
     isSnippet: true,
+    environmentProps: {
+        canvasHeight: 675,
+        canvasWidth: 1071
+    }
 });

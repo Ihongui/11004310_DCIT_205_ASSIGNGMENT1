@@ -1,0 +1,63 @@
+.root {}
+
+.DB {
+    height: 106vh;
+    margin-left: 60px;
+    padding-left: 60px;
+    background-repeat: no-repeat;
+    background-image: url('https://cdn.dribbble.com/users/32512/screenshots/4888827/circle_story_by_gleb.gif');
+    background-position: 50%;
+    background-size: cover;
+    background-attachment: scroll;
+    background-origin: padding-box;
+    background-clip: border-box;
+    background-color: transparent;
+    width: 94%;
+}
+
+.db {}
+
+.h2 {
+    font-size: 45px;
+    padding-top: 20px;
+    color: #FFE600;
+}
+
+.h3 {
+    font-size: 35px;
+    padding-top: 20px;
+    color: #FFFFFF;
+    padding-left: 10px;
+}
+
+.current-grades {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    border: 2px solid #8E8E8E;
+    border-radius: 7px;
+    border-left: 0px solid #8E8E8E;
+    border-right: 0px solid #8E8E8E;
+}
+
+.ul {
+    flex-direction: column;
+    text-align: start;
+    width: 500px;
+    font-size: 30px;
+    color: #EDEDED;
+    padding-left: 10px;
+}
+
+.h3 {}
+
+.li {
+    margin: 0px 0px 10px;
+    font-size: 25px;
+    font-weight: 500;
+    align-self: start;
+}
+
+.MC {
+    color: #F60000;
+}

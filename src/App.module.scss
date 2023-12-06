@@ -3,10 +3,11 @@
     margin: 0 auto;
     padding: 0rem;
     text-align: center;
-    background-color: #A7A7A7;
+    background-color: rgba(167, 167, 167, 0);
     border-radius: 0px;
     opacity: 0.9;
     opacity: 1;
+    width: 100%;
 }
 
 .logo {
@@ -62,4 +63,59 @@
 .landingPg {
     margin-top: 0px;
     height: 100vh;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-origin: padding-box;
+    background-clip: border-box;
+    background-position: 50% center;
+    background-size: cover;
+    background-attachment: scroll;
+    background-image: url('https://wallpaper-house.com/data/out/9/wallpaper2you_319527.jpg');
+}
+
+.intro {
+    margin-left: 61px;
+    height: 100vh;
+    width: 92.5%;
+    background-color: white;
+    text-align: center;
+}
+
+.overview {
+    background-color: transparent;
+    margin-left: 0px;
+    margin-top: -10px;
+    margin-right: -5px;
+    max-width: none;
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(180deg, #000000 58%, rgba(255, 255, 255, 0) 100%);
+    background-position: 0% 0%;
+    background-size: auto auto;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-origin: padding-box;
+    background-clip: border-box;
+}
+
+.h2 {
+    margin-top: 10px;
+    font-size: 35px;
+    text-align: start;
+    color: #F4C31C;
+    padding-left: 50px;
+    padding-top: 30px;
+}
+
+.h3 {
+    margin-top: 20px;
+    font-size: 25px;
+    text-align: start;
+    color: #FFFFFF;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    padding-right: 200px;
+    padding-left: 50px;
+    border: 0px solid #B1AEAE;
+    margin-left: 0px;
 }

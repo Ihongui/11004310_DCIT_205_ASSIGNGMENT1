@@ -15,7 +15,7 @@ export const LandingPage1 = ({ className }: LandingPage1Props) => {
             <h2 className={styles.Heading}>Welcome<h2 className={styles.Heading}>To</h2>
             </h2>
             <h3 className={styles.subHeading}>The Missing Grade System</h3></div>
-        <p>Your grades are asured</p>
+        <p className={styles.par}>Your grades are asured</p>
         <button className={styles.button}>Get Started</button>
     </div>;
 };
