@@ -1,21 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap');
 
 .body{
-    margin-top: 0px;
+margin-top: 0px;
 }
 .login-body{
 margin-top: 0px;
 background-image: url(images/60f58f3e76b5be00.jpg);
 background-repeat:no-repeat ;
 background-size: cover;
-
+}
+.dashboard-body{
+    margin-top: 0px;
+    background-image: url(images/cdtyxykrxlyr.jpg);
+    background-repeat:no-repeat ;
+    background-size: cover;
 }
 .body-2{
     margin-top: 0px;
     background-image: url(images/873e90234f68e2c12cca922d7d9042e3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 .ug-image {
     height:40px;
@@ -25,6 +29,7 @@ background-size: cover;
 .user-image {
     height: 40px;
     border-radius: 30px;
+    margin-right:50px;
 }
 .user-image:hover{
 cursor:pointer;
@@ -59,16 +64,21 @@ box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     color:white;
 }
 .content{
+    font-size: smaller;
     display:none;
     background-color:#141235;
     position: absolute;
-    width: 60px;
+    width:124px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     text-align: center;
     font-family: sans-serif;
+    line-height:40px;
 }
 .dropdown:hover .content{
     display: block;
+}
+.dropdown-content-text:hover{
+background-color: #BD9C6C;
 }
 .buttons {
     height:30px;
@@ -281,6 +291,16 @@ box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 .dropdown:active .content-2{
     display:block;
 }
+.academic-info{
+    background-color: #141235;
+    border-radius: 4px;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
 .table-container{
     display: flex;
     flex-direction: column;
@@ -426,5 +446,27 @@ border: none;
     color: #BD9C6C;
     font-family: sans-serif;
   }
+.font-family{
+    font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+.dashboard-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
 
+.student-info, .grades-summary, .missing-grades, .notifications {
+  background-color:#141235;
+  color:white;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+  width: 300px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: sans-serif;
+}
 

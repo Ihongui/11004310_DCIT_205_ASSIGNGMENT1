@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Missing Grade Report System</title>
     <link rel="stylesheet" href="styles.css">
-</head>
 
-<body class="body">
+</head>
+<body class="dashboard-body">
 
     <div class="page-heading-section">
         <div class="left-section"> 
@@ -19,88 +19,94 @@
         </div>
     </div>
 
+
     <div class="nav-bar">
-        <button class="buttons">Dashboard</button>
+        <a href="homepage.html"><button class="buttons">Homepage</button></a>
         <a href="grade_report_page.html"><button class="buttons">Grade Report</button></a>
         <a href="missing_grade_form_page.html"><button class="buttons">Missing Grade Form</button></a>
-        <button class="buttons">Contact</button>
-        <button class="buttons">Help and Support</button>
+        <a href="contact.html"><button class="buttons">Contact</button></a>
+        <a href="help_and_support.html"><button class="buttons">Help and Support</button></a>
 
         <div class="dropdown">
 
             <img class="user-image" src="images/f7938e1e66ecdea42408d65a456b4e39.jpeg">
 
             <div class="content">
-                <a href="index.html"> Log out</a>
+                <a class="dropdown-content-text" href="index.html"> Log out</a>
+                <a class="dropdown-content-text">Set profile photo</a>
+                <a class="dropdown-content-text">Change password</a>
             </div>
            
         </div>
         
     </div>
 
-    
+    <div class="dashboard-container">
 
-    <h1 class="headings">Introduction</h3>
-        <p class="paragraphs">
-            Welcome to the Missing Grade Report System - Your Academic Transparency Hub!
-        </p>
-<p class="paragraphs">
-    At University of Ghana-Legon , we understand the importance of staying informed about your academic progress. Our cutting-edge missing grade report system is designed to enhance transparency, streamline communication, and empower both students and faculty.
-            
-    In the fast-paced world of academia, timely access to accurate grade information is paramount. This is your go-to solution for reporting and managing missing grades efficiently. Whether you're a student seeking clarity on your academic standing or an instructor dedicated to providing the best learning experience, our system is tailored to meet your needs.
-    
-    Explore the intuitive interface, discover powerful features, and embark on a journey towards a more transparent and collaborative academic environment. With this system, we aim to revolutionize the way missing grades are handled, ensuring a seamless experience for everyone involved in the educational process.
-    
-    </p>
-
-</p>
-
-<h1 class="headings">Key Features</h2>
-
-<p class="paragraphs">-User-friendly interface</p>
-<p class="paragraphs">-Secure login/authentication</p>
-<p class="paragraphs">-Real-time updates on missing grades</p>
-<p class="paragraphs">-Notifications/alerts for users and administrators</p>
-
-<h1 class="headings">Security Measures</h2>
-
-<h4 class="sub-headings">Encrypted Communication</h4>
-<p class="paragraphs">All data transmitted between your device and our servers is encrypted using industry-standard protocols. This encryption guarantees that your information remains confidential during transit.</p>
-          
-<h4 class="sub-headings">Regular Security Audits</h4>
-<p class="paragraphs">We conduct routine security audits to identify and address potential vulnerabilities. This proactive approach ensures that our system meets the highest security standards.</p>
-
-
-
-<div class="footer">
-
-    <div class="footer-contact-section">
-        <div>
-            <h2 class="footer-headings">Contact US</h2>
-            <p class="footer-paragraphs"> Call +233 509873454</p>
-            <p class="footer-paragraphs"> Call +233 263459847</p>
-            <p class="footer-paragraphs"> Call +233 503953605</p>
+        <div class="student-info">
+            <h2 class="dashboard-headings">Student Information</h2>
+            <p>Name: Thomas Ofori</p>
+            <p>ID: 11204460</p>
+            <p>Program: Information Technology</p>
         </div>
-    
-        <div>
-            <h2 class="footer-headings">Send an Email</h2>
-            <p class="footer-paragraphs">gradereportsystem@gmail.com</p>
-            <p class="footer-paragraphs">gradesupportsystem@gmail.com</p>
+
+        <div class="grades-summary">
+            <h2 class="dashboard-headings">Grades Summary</h2>
+            <p>GPA: 3.5</p>
+            <p>Courses Completed: 13</p>
         </div>
-    
+
+        <div class="missing-grades">
+            <h2 class="dashboard-headings">Missing Grades</h2>
+                <P>Academic Writing I</P>
+                <P>Intro To Econimics I</P>
+        </div>
+
+        <div class="notifications">
+            <h2 class="dashboard-headings">Notifications</h2>
+            <p>Overdue Assignment: DCIT 207 - Assignment 2</p>
+            <p>Upcoming Deadline: DCIT 203  - Assignment 5</p>
+            <p>Upcoming Deadline: DCIT 205 - Assignment 2</p>
+        </div>
+
     </div>
 
-   <div class="other-footer-info">
+    <div class="footer">
 
-    <div> University of Ghana</div>
-    <div> System status: Running</div>
-    <div> Langauge: English (UK) </div>
-    <div> © Copyrigth 2023. All rights reserved.</div>
-    <div> Established since 2023</div>
+        <div class="footer-contact-section">
+            <div>
+                <h2 class="footer-headings">Contact US</h2>
+                <p class="footer-paragraphs"> Call +233 509873454</p>
+                <p class="footer-paragraphs"> Call +233 263459847</p>
+                <p class="footer-paragraphs"> Call +233 503953605</p>
+            </div>
+        
+            <div>
+                <h2 class="footer-headings">Send An Email</h2>
+                <p class="footer-paragraphs">gradereportsystem@gmail.com</p>
+                <p class="footer-paragraphs">gradesupportsystem@gmail.com</p>
+            </div>
+    
+            <div>
+                <h2 class="footer-headings">News</h2>
+                <input type="email" class="footer-email-input" placeholder="*************@gmail.com"><button class="subscribe-button">Subscribe</button>
+            </div>
+        
+        </div>
+    
+       <div class="other-footer-info">
+    
+        <div> University of Ghana</div>
+        <div> System status: Running</div>
+        <div> Langauge: English (UK) </div>
+        <div> © Copyrigth 2023. All rights reserved.</div>
+        <div> Published 2023</div>
+        
+    
+       </div>
+        
     
 
-   </div>
-    
-
+  
 </body>
 </html>
