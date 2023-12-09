@@ -51,7 +51,7 @@ export const HelpAndSupport = ({ className }: HelpAndSupportProps) => {
                         <br />
                         <strong>A:</strong> You can report a missing grade on the Missing Grade Form page.
                     </li>
-                    {/* Add more FAQ items as needed */}
+                    { }
                 </ul>
             </section>
         </div>

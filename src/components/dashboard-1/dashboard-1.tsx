@@ -20,7 +20,7 @@ const currentGrades = [
 ];
 
 const missingGradeAlerts = [
-    { course: 'CBAS210 ACADEMIC WRITING II', message: 'Missing Grade: Please submit your assignment' },
+    { course: 'UGRC 110 ACADEMIC WRITING I', message: 'Missing Grade: Please submit your assignment' },
 
 ];
 

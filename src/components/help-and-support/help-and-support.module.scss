@@ -117,15 +117,15 @@
 .label {
     font-size: 25px;
     font-family: Times New Roman, serif;
+    align-self: start;
 }
 
 .btn {
-    font-size: 30px;
-    height: 60px;
-    width: 200px;
+    font-size: 25px;
+    height: 40px;
     padding: 0px;
     margin-top: 50px;
-    border-radius: 50px;
+    border-radius: 100px;
     background-image: linear-gradient(180deg, #0344FC 0%, rgba(255, 255, 255, 0) 100%);
     background-color: transparent;
     background-position: 0%;
@@ -135,6 +135,7 @@
     background-origin: padding-box;
     background-clip: border-box;
     color: #FFFFFF;
+    width: 150px;
 }
 
 .faq {

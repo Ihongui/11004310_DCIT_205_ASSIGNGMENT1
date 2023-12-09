@@ -10,7 +10,7 @@ export const SideBar = ({ className }: SideBarProps) => {
         <div className={classNames(styles.root, className)}>
             <ul>
                 <li>
-                    <a href="/">
+                    <a href="/home">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width="16"
@@ -36,7 +36,7 @@ export const SideBar = ({ className }: SideBarProps) => {
                             <path d="M3 2.5a.5.5 0 0 1 .5-.5H4a.5.5 0 0 0 0-1h-.5A1.5 1.5 0 0 0 2 2.5v12A1.5 1.5 0 0 0 3.5 16h9a1.5 1.5 0 0 0 1.5-1.5v-12A1.5 1.5 0 0 0 12.5 1H12a.5.5 0 0 0 0 1h.5a.5.5 0 0 1 .5.5v12a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5z" /><path d="M10 7a1 1 0 1 1 2 0v5a1 1 0 1 1-2 0zm-6 4a1 1 0 1 1 2 0v1a1 1 0 1 1-2 0zm4-3a1 1 0 0 0-1 1v3a1 1 0 1 0 2 0V9a1 1 0 0 0-1-1" /></svg>DashB</a>
                 </li>
                 <li>
-                    <a href="">
+                    <a href="/login">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width="16"
@@ -57,7 +57,7 @@ export const SideBar = ({ className }: SideBarProps) => {
                     </a>
                 </li>
                 <li>
-                    <a href="/missing-grade-form">
+                    <a href="/gradeReport">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width="16"
@@ -72,7 +72,7 @@ export const SideBar = ({ className }: SideBarProps) => {
                     </a>
                 </li>
                 <li>
-                    <a>
+                    <a href='/missingGradeForm'>
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width="16"
@@ -86,7 +86,7 @@ export const SideBar = ({ className }: SideBarProps) => {
                         </svg>Forms</a>
                 </li>
                 <li>
-                    <a>
+                    <a href='/instructorContact'>
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width="16"
@@ -99,7 +99,7 @@ export const SideBar = ({ className }: SideBarProps) => {
                         </svg>Contact</a>
                 </li>
                 <li>
-                    <a>
+                    <a href='/helpandSupport'>
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width="16"

@@ -24,7 +24,7 @@ export const Footer = ({ className }: FooterProps) => {
                     <a href="#" className={styles['soc-link']}>
                         <img src="https://play-lh.googleusercontent.com/bYtqbOcTYOlgc6gqZ2rwb8lptHuwlNE75zYJu6Bn076-hTmvd96HH-6v7S0YUAAJXoJN" alt="Twitter" className={styles.socImg} />
                     </a>
-                    {/* Add more social media links as needed */}
+                    { }
                 </div>
                 <p className={styles.p}>&copy; 2023 Your Company. All rights reserved.</p>
 

@@ -5,10 +5,7 @@ export interface LandingPage1Props {
     className?: string;
 }
 
-/**
- * This component was created using Codux's Default new component template.
- * To create custom component templates, see https://help.codux.com/kb/en/article/kb16522
- */
+
 export const LandingPage1 = ({ className }: LandingPage1Props) => {
     return <div className={classNames(styles.root, className)}>
         <div>
@@ -16,6 +13,6 @@ export const LandingPage1 = ({ className }: LandingPage1Props) => {
             </h2>
             <h3 className={styles.subHeading}>The Missing Grade System</h3></div>
         <p className={styles.par}>Your grades are asured</p>
-        <button className={styles.button}>Get Started</button>
+        <a href="/login" className={styles['btn-link']}><button className={styles.button}>Get Started</button></a>
     </div>;
 };
