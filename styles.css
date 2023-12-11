@@ -15,6 +15,11 @@ background-size: cover;
     background-repeat:no-repeat ;
     background-size: cover;
 }
+.grade-report-body{
+    background-image: url(images/egtgbiefngief.jpg);
+    background-repeat:no-repeat ;
+    background-size:cover;
+}
 .body-2{
     margin-top: 0px;
     background-image: url(images/873e90234f68e2c12cca922d7d9042e3.jpg);
@@ -79,6 +84,7 @@ box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 .dropdown-content-text:hover{
 background-color: #BD9C6C;
+cursor: pointer;
 }
 .buttons {
     height:30px;
@@ -288,7 +294,7 @@ background-color: #BD9C6C;
     text-align: center;
     font-family: sans-serif;
 }
-.dropdown:active .content-2{
+.dropdown:hover .content-2{
     display:block;
 }
 .academic-info{
