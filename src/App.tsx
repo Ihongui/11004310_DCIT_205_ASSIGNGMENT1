@@ -9,6 +9,7 @@ import { HelpAndSupport } from './components/help-and-support/help-and-support';
 import { MissingGradeForm1 } from './components/missing-grade-form-1/missing-grade-form-1';
 import { InstructorContact } from './components/instructor-contact/instructor-contact';
 
+
 function App() {
     const [count, setCount] = useState(0);
 
@@ -16,7 +17,7 @@ function App() {
         <div className={styles.App } >
             <BrowserRouter>
                 <Routes>
-                    <Route index element={<HomePage />} />
+                    <Route index element={<LoginPage />} />
                     <Route path='/home' element={<HomePage />} />
                     <Route path='/login' element={<LoginPage />} />
                     <Route path='/dashboard' element={<Dashboard1 />} />

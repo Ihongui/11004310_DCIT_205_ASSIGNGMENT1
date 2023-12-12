@@ -42,16 +42,12 @@ export const HelpAndSupport = ({ className }: HelpAndSupportProps) => {
                         <strong>A:</strong> You can report a missing grade on the Missing Grade Form page.
                     </li>
                     <li className={styles.LI}>
-                        <strong>Q:</strong> How can I report a missing grade?
-                        <br />
-                        <strong>A:</strong> You can report a missing grade on the Missing Grade Form page.
-                    </li>
+                        <strong>Q:</strong>How can I see my  missing grade?<br />
+                        <strong>A:</strong>You can see your grades on the Grade  page by clicking on its tab .</li>
                     <li className={styles.LI}>
-                        <strong>Q:</strong> How can I report a missing grade?
-                        <br />
-                        <strong>A:</strong> You can report a missing grade on the Missing Grade Form page.
-                    </li>
-                    { }
+                        <strong>Q:</strong>How can I get a lecturer&apos;s contact?<br />
+                        <strong>A:</strong>You can view the lecturer&apos;s contact on the Instructor Contact page.</li>
+                    {}
                 </ul>
             </section>
         </div>

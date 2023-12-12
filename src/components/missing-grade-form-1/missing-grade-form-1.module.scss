@@ -2,8 +2,8 @@
 
 .MGF {
     height: 107vh;
-    width: 94%;
-    margin-left: 60px;
+    width: 100%;
+    margin-left: 0px;
     background-repeat: no-repeat;
     background-image: url('https://wallpapers.com/images/hd/design-black-background-lh6hd1i0ecusnwzg.jpg');
     background-position: 50%;
@@ -21,6 +21,8 @@
     flex-direction: column;
     width: 700px;
     padding-left: 90px;
+    margin-left: 50px;
+    margin-top: 50px;
 }
 
 .h2 {
@@ -31,23 +33,23 @@
 }
 
 .label {
-    font-size: 25px;
+    font-size: 20px;
     color: #EFEFEF;
     text-align: start;
     align-self: start;
 }
 
 .input {
-    height: 40px;
+    height: 30px;
 }
 
 .btn {
     padding: 0px;
     margin-top: 20px;
-    height: 50px;
+    height: 40px;
     width: 100px;
     text-align: center;
-    font-size: 20px;
+    font-size: 18px;
     background-image: linear-gradient(358deg, #006579 35%, #f6f6f6 100%);
     background-color: transparent;
     background-position: 50% 50%;

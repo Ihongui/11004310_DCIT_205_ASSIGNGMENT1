@@ -35,13 +35,13 @@ export const GradeReport: React.FC<GradeReportProps> = ({ className }) => {
     const [courses, setCourses] = useState<Course[]>(allCourses);
 
     const filterCoursesBySemester = (semester: string) => {
-        
+
         if (semester === 'All') {
             setCourses(allCourses);
             return;
         }
 
-        
+
         const filteredCourses = allCourses.filter((course) => course.semester === semester);
         setCourses(filteredCourses);
     };

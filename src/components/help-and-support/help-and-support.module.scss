@@ -90,9 +90,9 @@
 
 .HS1 {
     margin-top: 0px;
-    margin-left: 60px;
+    margin-left: 0px;
     height: 96.25%;
-    width: 94%;
+    width: 100%;
     max-width: none;
     background-color: white;
     background-repeat: no-repeat;
@@ -174,4 +174,6 @@
 
 .UL {
     flex-direction: column;
+    margin: 0px 0px 0px 150px;
+    text-align: center;
 }
