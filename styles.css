@@ -19,6 +19,7 @@ background-size: cover;
     background-image: url(images/egtgbiefngief.jpg);
     background-repeat:no-repeat ;
     background-size:cover;
+    margin-top: 0px;
 }
 .body-2{
     margin-top: 0px;
@@ -294,7 +295,7 @@ cursor: pointer;
     text-align: center;
     font-family: sans-serif;
 }
-.dropdown:hover .content-2{
+.dropdown:active .content-2{
     display:block;
 }
 .academic-info{
