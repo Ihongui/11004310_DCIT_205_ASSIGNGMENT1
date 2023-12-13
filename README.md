@@ -1,5 +1,10 @@
 # Student Grade Reporting System Frontend
 
+## Student Details
+Name: Emmanuel Sagoe
+
+ID: 11205670
+
 ## Project Overview
 
 This project is a front-end web application for a Student Grade Reporting System. It simulates a real-world application where students can view, report, and manage their academic grades. This system addresses the issue of missing or unrecorded grades in a student's profile.
@@ -47,5 +52,11 @@ To contribute to this project, please follow these guidelines:
 2. Create a new branch for your feature.
 3. Commit your changes and push them to your branch.
 4. Submit a pull request for review.
+
+## What i have learnt
+1. I have learnt to manage my time well and plan my activities effectively.
+2. I have also learnt about positioning in html (position absolute , and relative)
+3. I have also learnt how to use background images and prevent them from repeating on the webpage.
+
 
 Please adhere to the project's coding standards and provide clear and detailed pull request descriptions.
