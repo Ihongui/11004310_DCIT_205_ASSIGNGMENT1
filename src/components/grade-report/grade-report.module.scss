@@ -4,10 +4,10 @@
 
     h2 {
         margin-bottom: 16px;
-        font-size: 45px;
+        font-size: 30px;
         text-align: start;
         padding-left: 20px;
-        color: #F2C30B;
+        color: #FFFFFF;
     }
 
     .semester-filter {
@@ -57,14 +57,7 @@
 
     height:200vh;
     width:100%;
-    background-color:#242424;
-    background-repeat:no-repeat;
-    background-image: url('https://cdn.vectorstock.com/i/1000x1000/96/92/dark-blue-gradient-background-vector-9199692.webp');
-    background-position: 50%;
-    background-size:cover;
-    background-attachment: scroll;
-    background-origin: padding-box;
-    background-clip: border-box;
+    background-color:rgb(32, 33, 36);
 
 
 }
@@ -73,14 +66,7 @@
     height: 190vh;
     width: 94%;
     margin-left: 60px;
-    background-color: rgb(36, 36, 36);
-    background-repeat: no-repeat;
-    background-image: url('https://cdn.vectorstock.com/i/1000x1000/96/92/dark-blue-gradient-background-vector-9199692.webp');
-    background-position: 50%;
-    background-size: cover;
-    background-attachment: scroll;
-    background-origin: padding-box;
-    background-clip: border-box;
+    background-color: rgb(32, 33, 36);
     opacity: 1;
     box-shadow: 1.94px 3.5px 2px black;
     padding-left: 60px;
@@ -89,20 +75,20 @@
 .H3 {
     font-size: 35px;
     padding-left: 20px;
-    color: #FFFFFF;
+    color: #C8C8C8;
+    text-align: start;
 }
 
 .UL {
     flex-direction: column;
     align-items: start;
-    font-size: 25px;
     color: #FFFFFF;
 }
 
 .LI {
-    font-size: 20px;
+    font-size: 17.5px;
     margin-left: 20px;
-    font-weight: 500;
+    font-weight: 400;
     color: #FAFAFA;
 }
 
@@ -115,7 +101,7 @@
 .SL {
     margin-left: 10px;
     color: #FFFFFF;
-    background-color: #000000;
+    background-color: #1C1C1C;
     background-image: none;
     background-position: 0%;
     background-size: auto;
@@ -133,3 +119,7 @@
 }
 
 .filter-label {}
+
+.lbl {
+    font-size: 18px;
+}

@@ -42,7 +42,7 @@ export const Dashboard1 = ({ className }: Dashboard1Props) => {
                         ))}
                     </ul>
                 </div>
-                <div className="missing-grade-alerts">
+                <div className={styles['missing-grade-allert']}>
                     <h3 className={styles.h3}>Missing Grade Alerts</h3>
                     <ul className={styles.h3}>
                         {missingGradeAlerts.map((alert, index) => (

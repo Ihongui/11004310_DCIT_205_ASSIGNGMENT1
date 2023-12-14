@@ -82,14 +82,14 @@
 }
 
 .overview {
-    background-color: transparent;
+    background-color: #1f2225;
     margin-left: 0px;
     margin-top: -10px;
     margin-right: -5px;
     max-width: none;
     height: 100vh;
     width: 100%;
-    background-image: linear-gradient(180deg, #000000 58%, rgba(255, 255, 255, 0) 100%);
+    background-image: none;
     background-position: 0% 0%;
     background-size: auto auto;
     background-repeat: repeat;
@@ -103,8 +103,8 @@
     margin-top: 10px;
     font-size: 35px;
     text-align: start;
-    color: #F4C31C;
-    padding-left: 100px;
+    color: #FFFFFF;
+    padding-left: 120px;
     padding-top: 30px;
 }
 
@@ -112,12 +112,17 @@
     margin-top: 20px;
     font-size: 20px;
     text-align: justify;
-    color: #FFFFFF;
-    border-top-right-radius: 2px;
-    border-bottom-right-radius: 2px;
-    padding-right: 200px;
-    padding-left: 100px;
+    color: #D7D7D7;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding-right: 100px;
+    padding-left: 10px;
     border: 0px solid #B1AEAE;
-    margin-left: 0px;
+    margin-left: 110px;
     font-weight: 400;
+    border-left: 2px solid #B1AEAE;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin-right: 100px;
+    border-right: 2px solid #B1AEAE;
 }

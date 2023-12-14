@@ -1,7 +1,7 @@
 .root {}
 
 .DB {
-    height: 106vh;
+    height: 98.5vh;
     margin-left: 0px;
     padding-left: 60px;
     background-repeat: no-repeat;
@@ -12,13 +12,13 @@
     background-origin: padding-box;
     background-clip: border-box;
     background-color: transparent;
-    width: 100%;
+    width: auto;
 }
 
 .db {}
 
 .h2 {
-    font-size: 45px;
+    font-size: 35px;
     padding-top: 20px;
     color: #FFE600;
     margin: 0px 0px 0px 50px;
@@ -46,14 +46,20 @@
     flex-direction: column;
     text-align: start;
     width: 700px;
-    font-size: 30px;
+    font-size: 25px;
     color: #EDEDED;
     padding-left: 10px;
+    font-weight: 400;
 }
 
 .h3 {
-    font-size: 37px;
+    font-size: 30px;
     margin-left: 50px;
+    width: 900px;
+    border-radius: 2px 2px 0px 0px;
+    padding-left: 10px;
+    border: 0px solid #C6C4C4;
+    border-top: 1px solid #C6C4C4;
 }
 
 .li {
@@ -61,8 +67,14 @@
     font-size: 20px;
     font-weight: 500;
     align-self: start;
+    align-items: start;
 }
 
 .MC {
     color: #F60000;
+}
+
+.missing-grade-allert {
+    height: 200px;
+    margin-top: 120px;
 }

@@ -1,8 +1,8 @@
 .root {}
 
 .MGF {
-    height: 107vh;
-    width: 100%;
+    height: 98.5vh;
+    width: auto;
     margin-left: 0px;
     background-repeat: no-repeat;
     background-image: url('https://wallpapers.com/images/hd/design-black-background-lh6hd1i0ecusnwzg.jpg');
@@ -26,9 +26,9 @@
 }
 
 .h2 {
-    font-size: 45px;
+    font-size: 35px;
     text-align: center;
-    color: #FFD200;
+    color: #FFFFFF;
     padding-top: 30px;
 }
 
@@ -37,6 +37,8 @@
     color: #EFEFEF;
     text-align: start;
     align-self: start;
+    font-family: Times New Roman, serif;
+    font-style: italic;
 }
 
 .input {

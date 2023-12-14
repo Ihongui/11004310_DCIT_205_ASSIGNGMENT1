@@ -23,10 +23,10 @@ const allCourses: Course[] = [
     { course: 'STAT 111	Introduction to Statistics and Probability I', grade: 'A', semester: 'First Semester' },
     { course: 'ECON 101	Introduction to Economics I', grade: 'C+', semester: 'First Semester' },
 
-    { course: 'UGRC 110	Academic Writing I', grade: '-', semester: 'Second Semester' },
+    { course: 'UGRC 110	Academic Writing I', grade: 'N/A', semester: 'Second Semester' },
     { course: 'MATH 122	Calculus I', grade: 'B+', semester: 'Second Semester' },
     { course: 'STAT 112	Introduction to Statistics and Probability II', grade: 'A', semester: 'Second Semester' },
-    { course: 'ECON102 INTRODUCTION TO ECONOMICS II ', grade: 'A', semester: 'Second Semester' },
+    { course: 'ECON 102 INTRODUCTION TO ECONOMICS II ', grade: 'A', semester: 'Second Semester' },
     { course: 'DCIT 102	Computer Hardware Fund. and Circuits', grade: 'A', semester: 'Second Semester' },
     { course: 'DCIT 104 Programming', grade: 'B', semester: 'Second Semester' },
 ];
@@ -51,9 +51,9 @@ export const GradeReport: React.FC<GradeReportProps> = ({ className }) => {
             <Navbar />
             <SideBar />
             <div className={styles.GR}>
-                <h2>Grade Report</h2>
+                <h2>Grade Report  2022/2023</h2>
                 <div className={classNames('semester-filter', styles.SF)}>
-                    <label htmlFor="semester">Filter by Semester:</label>
+                    <label htmlFor="semester" className={styles.lbl}>Filter by Semester:</label>
                     <select id="semester" onChange={(e) => filterCoursesBySemester(e.target.value)} className={styles.SL}>
                         <option value="All">All Semesters</option>
                         <option value="First Semester">First Semester</option>

@@ -36,8 +36,8 @@ export const InstructorContact = ({ className }: InstructorContactProps) => {
                     <li key={instructor.id}>
                         <div className="instructor-info">
                             <h3 className={styles.h3}>{instructor.name}</h3>
-                            <p>Email: {instructor.email}</p>
-                            <p>Contact: {instructor.contact}</p>
+                            <p className={styles.info}>Email: {instructor.email}</p>
+                            <p className={styles.info}>Contact: {instructor.contact}</p>
                         </div>
                         <button>Send Email</button>
                     </li>

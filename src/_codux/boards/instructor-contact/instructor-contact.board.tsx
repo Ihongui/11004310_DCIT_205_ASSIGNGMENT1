@@ -6,7 +6,9 @@ export default createBoard({
     Board: () => <InstructorContact />,
     isSnippet: true,
     environmentProps: {
-        canvasHeight: 675,
-        canvasWidth: 1071
+        canvasHeight: 993,
+        canvasWidth: 1071,
+        windowWidth: 1024,
+        windowHeight: 768
     }
 });

@@ -10,7 +10,7 @@ export const Footer = ({ className }: FooterProps) => {
         <div className={classNames(styles.root, className)}>
 
             <footer>
-                <h4 className={styles.h}>Socials</h4>
+                <h4 className={styles.h}>Social Media</h4>
                 <div className={styles['soc-links']}>
                     <a href="#" className={styles['soc-link']}>
                         <img src="https://www.facebook.com/images/fb_icon_325x325.png" alt="Facebook" className={styles.socImg} />

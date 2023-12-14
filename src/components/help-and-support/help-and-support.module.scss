@@ -80,6 +80,7 @@
     background-clip: border-box;
     height: 100vh;
     width: 100%;
+    border-top: 2px solid #C6C4C4;
 }
 
 .HS-form {
@@ -91,9 +92,8 @@
 .HS1 {
     margin-top: 0px;
     margin-left: 0px;
-    height: 96.25%;
-    width: 100%;
-    max-width: none;
+    height: 98.5vh;
+    width: auto;
     background-color: white;
     background-repeat: no-repeat;
     background-image: url('https://t3.ftcdn.net/jpg/02/15/48/14/360_F_215481460_PCrQyHE05eZpMFqAyzqpEegs4SQrgpQw.jpg');
@@ -102,12 +102,13 @@
     background-attachment: scroll;
     background-origin: padding-box;
     background-clip: border-box;
+    margin-bottom: 0px;
 }
 
 .HEAD {
     text-align: center;
     color: #FFFFFF;
-    font-size: 45px;
+    font-size: 35px;
 }
 
 .Input {
@@ -121,7 +122,7 @@
 }
 
 .btn {
-    font-size: 25px;
+    font-size: 20px;
     height: 40px;
     padding: 0px;
     margin-top: 50px;
