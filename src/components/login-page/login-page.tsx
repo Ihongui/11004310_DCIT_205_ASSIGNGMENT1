@@ -17,7 +17,7 @@ export const LoginPage = ({ className }: LoginPageProps) => {
 
   const handleLogin = () => {
 
-    if (studentId === '11111111' && pin === '00000') {
+    if (studentId === '12345678' && pin === '00000') {
       setIsLoggedIn(true);
     } else {
       alert('Invalid Student ID or PIN');
