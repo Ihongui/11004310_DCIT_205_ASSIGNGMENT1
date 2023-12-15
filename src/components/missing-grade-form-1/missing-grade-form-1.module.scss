@@ -1,4 +1,4 @@
-.root {}
+.root {
 
 .MGF {
     height: 98.5vh;
@@ -62,4 +62,11 @@
     background-clip: border-box;
     border-radius: 12px;
     color: #FFFFFF;
+}
+
+.MGF .p {
+    color: rgb(17, 240, 9);
+    margin-top: 10px;
+    
+}
 }

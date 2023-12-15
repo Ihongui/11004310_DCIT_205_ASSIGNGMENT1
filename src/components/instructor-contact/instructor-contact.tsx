@@ -1,4 +1,5 @@
 import classNames from 'classnames';
+import React, { useState } from 'react';
 import styles from './instructor-contact.module.scss';
 import { SideBar } from '../side-bar/side-bar';
 import { Footer } from '../footer/footer';
@@ -24,7 +25,17 @@ const instructors: InstructorContactProps[] = [
 ];
 
 
+
 export const InstructorContact = ({ className }: InstructorContactProps) => {
+    const [selectedInstructor, setSelectedInstructor] = useState<InstructorContactProps | null>(null);
+
+    const handleEmailSimulation = () => {
+        if (selectedInstructor) {
+          const simulatedEmail = `mailto:${selectedInstructor.email}?subject=Hello ${selectedInstructor.name}`;
+          window.location.href = simulatedEmail;
+        }
+      };
+      
     return <div className={classNames(styles.root, className)}>
         <Navbar />
         <SideBar />
@@ -33,13 +44,15 @@ export const InstructorContact = ({ className }: InstructorContactProps) => {
         <div className={styles.contacts}>
             <ul className={classNames('instructor-list', styles['instructor-list'])}>
                 {instructors.map((instructor) => (
-                    <li key={instructor.id}>
+                    <li key={instructor.id} onClick={() => setSelectedInstructor(instructor)}>
+                         {selectedInstructor && (
                         <div className="instructor-info">
                             <h3 className={styles.h3}>{instructor.name}</h3>
                             <p className={styles.info}>Email: {instructor.email}</p>
                             <p className={styles.info}>Contact: {instructor.contact}</p>
                         </div>
-                        <button>Send Email</button>
+                         )}
+                        <button onClick={handleEmailSimulation}>Send Email</button>
                     </li>
                 ))}</ul>
         </div>

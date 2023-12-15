@@ -65,7 +65,7 @@ export const GradeReport: React.FC<GradeReportProps> = ({ className }) => {
                     <ul className={classNames(styles.ul, styles.UL)}>
                         {courses.map((grade, index) => (
                             <li key={index} className={classNames(styles.li, styles.LI)}>
-                                {grade.course}: {grade.grade}
+                                {grade.course}:      {grade.grade}
                             </li>
                         ))}
                     </ul>
